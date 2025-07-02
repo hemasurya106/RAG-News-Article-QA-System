@@ -5,7 +5,7 @@ This project is a Retrieval-Augmented Generation (RAG) system that leverages Lar
 ## Features
 - Loads and indexes news articles from the `news_articles/` directory
 - Embeds and stores document chunks in a persistent Chroma vector database
-- Uses a Groq-hosted LLM (Llama 4) for question answering
+- Uses a Groq-hosted LLM models for question answering
 - Simple script-based interface for querying the knowledge base
 
 ## Project Structure
