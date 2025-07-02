@@ -35,6 +35,7 @@ Run the main script to ingest articles and perform a sample query:
 python app.py
 ```
 - The script will load all `.txt` files from `news_articles/`, embed and store them, and then run a sample query (`how ai replace tv writers`).
+  
 sample output:-
 The Writers Guild of America proposed that AI output not be considered writers' work and that writers not be required to adapt AI-generated content. However, the Alliance of Motion Picture and Television Producers (AMPTP) refused to engage with this proposal. Currently, it seems AI won't directly replace TV writers, but rather be used as a tool that writers' unions want to ensure doesn't undermine their working conditions.
 - You can modify the `question` variable in `app.py` to ask your own questions.
@@ -56,9 +57,10 @@ pip install -r requirements.txt
 
 ## Adding Data
 - Place your `.txt` files in the `news_articles/` directory. Each file will be loaded and indexed automatically on the next run.
+  (Sample Txt files have been attached for your reference)
 
 ## Notes
 - The vector database is stored in `chroma_persistent_storage/` and will persist between runs.
-- Make sure your API keys are kept secure and **never commit your `.env` file** to version control.
+- Make sure your API keys are kept secure and working properly.
 
 
