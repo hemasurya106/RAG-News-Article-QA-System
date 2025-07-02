@@ -62,5 +62,13 @@ pip install -r requirements.txt
 ## Notes
 - The vector database is stored in `chroma_persistent_storage/` and will persist between runs.
 - Make sure your API keys are kept secure and working properly.
+  
+## ⚠️ Billing Notice for Groq Cloud Usage
+
+This project uses [Groq Cloud](https://console.groq.com/) APIs to run LLM inferences
+
+> **Important:**  
+While this codebase is open-source and using Groq Cloud APIs may incur charges based on their compute pricing and your usage volume.  
+Refer to [Groq Cloud Pricing](https://console.groq.com/pricing) for details.
 
 
